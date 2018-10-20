@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "dom-parser": "^0.1.5",
+    "htmldom": "^3.0.8",
+    "request": "^2.88.0",
+    "request-cookies": "^1.1.0",
+    "way2sms": "^1.0.2"
+  }
+}

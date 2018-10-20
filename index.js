@@ -14,6 +14,7 @@ function way2smsAuth(mobileNo,password)
     const uri_login = "http://www.way2sms.com/re-login";
     const uri_token="http://www.way2sms.com/send-sms";
     var body = "mobileNo=" + mobileNo + "&password=" + password + "&CatType=";
+    authData={};
     request.post({
     headers: {'content-type' : 'application/x-www-form-urlencoded'},
                 url:     uri_login,
@@ -40,3 +41,4 @@ function way2smsAuth(mobileNo,password)
         });
     });
 }
+
