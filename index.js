@@ -6,3 +6,6 @@ var cheerio = require('cheerio');
 const uri_login = "http://www.way2sms.com/re-login";
 const uri_token="http://www.way2sms.com/send-sms";
 const uri_smstoss="http://www.way2sms.com/smstoss";
+
+var mobileNo = '';
+var password = '';
