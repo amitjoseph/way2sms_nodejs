@@ -9,3 +9,12 @@ const uri_smstoss="http://www.way2sms.com/smstoss";
 
 var mobileNo = '';
 var password = '';
+
+var body = "mobileNo=" + mobileNo + "&password=" + password + "&CatType=";
+request.post({
+  headers: {'content-type' : 'application/x-www-form-urlencoded'},
+  url:     uri_login,
+  body:    body
+}, function(error, response, body){
+}
+});
