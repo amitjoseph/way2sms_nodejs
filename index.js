@@ -42,3 +42,17 @@ function way2smsAuth(mobileNo,password)
     });
 }
 
+function sendSms(authData,toMobile,message)
+{
+  var ssaction = undefined;
+  var body ="Token=" + authData.token + "&message=" + message + "&toMobile=" + toMobile + "&ssaction=" +ssaction;
+  request.post({
+    headers: {'content-type' : 'application/x-www-form-urlencoded','Cookie': rauthData.cookies},
+    url:     uri_smstoss,
+    body: body
+  }, function(error, response, body){
+      console.log('error:', error); // Print the error if one occurred
+      console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
+      //console.log('body:', body); // Print the HTML for the Google homepage.
+  });
+}
