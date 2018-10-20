@@ -7,7 +7,7 @@ const uri_login = "http://www.way2sms.com/re-login";
 const uri_token="http://www.way2sms.com/send-sms";
 const uri_smstoss="http://www.way2sms.com/smstoss";
 
-var mobileNo = '';
+var mobileNo1 = 'Hello';
 var password = '';
 
 var body = "mobileNo=" + mobileNo + "&password=" + password + "&CatType=";
