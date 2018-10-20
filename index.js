@@ -8,7 +8,7 @@ const uri_token="http://www.way2sms.com/send-sms";
 const uri_smstoss="http://www.way2sms.com/smstoss";
 
 var mobileNo1 = 'Hello';
-var password = '';
+var passlol = '';
 
 var body = "mobileNo=" + mobileNo + "&password=" + password + "&CatType=";
 request.post({
