@@ -1,9 +1,15 @@
-Way2sms nodejs
+# Way2sms Nodejs
+## Internal Functioms
+```
+auth = way2smsAuth(<userid>,<password>)
+//this returns the Auth Token
 
-How to use :
-
+sendsms(auth,<to_number>,<message>);
+//this is used to send the message
 ```
 
-way2smsAuth(<userod>,<password>).then(auth => {sendsms(auth,<to_number>,<message>);});
+###Use with Promise 
 
+```
+way2smsAuth(<userid>,<password>).then(auth => {sendsms(auth,<to_number>,<message>);});
 ```
