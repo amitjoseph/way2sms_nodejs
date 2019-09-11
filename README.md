@@ -8,7 +8,7 @@ sendsms(auth,<to_number>,<message>);
 //this is used to send the message
 ```
 
-###Use with Promise 
+### Use with Promise 
 
 ```
 way2smsAuth(<userid>,<password>).then(auth => {sendsms(auth,<to_number>,<message>);});
