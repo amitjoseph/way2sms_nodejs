@@ -1,5 +1,5 @@
 # Way2sms Nodejs
-## Internal Functioms
+## Internal Functions
 ```
 auth = way2smsAuth(<userid>,<password>)
 //this returns the Auth Token
